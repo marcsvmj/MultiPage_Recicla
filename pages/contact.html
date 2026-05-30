@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contato</title>
+        <link rel="stylesheet" href="../css/contact.css">
+        <script src="../scripts/contact.js" defer></script>
+    </head>
+
+    <body>
+        <header class="navbar">
+            <div class="navbar-logo">
+                <img src="../assets/icon/GG - logo.png" alt="Logo">
+            </div>
+
+            <div class="navbar-links">
+                <a href="../index.html" class="first">Inicial</a>
+                <a href="../pages/about.html" class="second">Sobre Nós</a>
+                <a href="../pages/ongs.html" class="third">ONGs</a>
+            </div>
+        </header>
+
+        <section class="contato">
+
+            <div class="faixa-laranja"></div>
+
+            <div class="container">
+
+                <div class="formulario">
+                    <h1>CONTATE-NOS</h1>
+
+                    <form id="formContato">
+
+                        <input type="text" id="nome" placeholder="Insira seu nome" required>
+
+                        <input type="email" placeholder="Digite seu email" required>
+
+                        <textarea type="text" placeholder="Escreva sua mensagem aqui" required></textarea>
+
+                        <button type="submit">ENVIAR</button>
+                    </form>
+                </div>
+
+                <div class="imagem">
+                    <img
+                        src="../assets/img/abajur.jpeg"
+                        alt="Imagem de escritório">
+                </div>
+            </div>
+
+            <div class="overlay" id="overlay">
+
+                <div class="popup">
+
+                    <h2>Mensagem enviada!</h2>
+
+                    <p> Obrigado, <span id="nomeUsuario"></span>! Entraremos em contato em breve se necessário. </p>
+
+                    <button id="btnOk">OK</button>
+                </div>
+            </div>
+        </section>
+
+
+        <footer>
+            <div class="footer-content">
+                <div class="resume">
+                    <img src="../assets/img/logo_branca.png" alt="Logo do Recicla+">
+                    <p>
+                        Projeto que promove a reciclagem </br>
+                        e o descarte adequado de materiais </br>
+                        diversos.
+                    </p>
+                </div>
+
+                <div class="links">
+                    <div class="link">
+                        <h4>Contato</h4>
+                        <a href="mailto:contato@gg.com">Email</a>
+                        <a href="https://instagram.com" target="_blank">Instagram</a>
+                        <a href="tel:+551112345678">Telefone</a>
+                    </div>
+
+                    <div class="link">
+                        <h4>Páginas</h4>
+                        <a href="mailto:contato@gg.com">Início</a>
+                        <a href="https://instagram.com" target="_blank">ONGs</a>
+                        <a href="tel:+551112345678">Contato</a>
+                    </div>
+
+                    <div class="link">
+                        <h4>Seções</h4>
+                        <a href="#values">Nossos valores</a>
+                        <a href="#collaborators">Colaboradores</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2026 Projeto Recicla+</p>
+            </div>
+        </footer>    
+    </body>
+</html>

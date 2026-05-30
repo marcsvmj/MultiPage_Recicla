@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baumans&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('../components/navbar/navbar.css');
+@import url('../components/footer/footer.css');
+@import url('https://fonts.googleapis.com/css2?family=Amethysta&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    background-color: #f5efe2;
+}
+
+section.main {
+    padding-top: 20px;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 300px;
+    gap: 80px;
+}
+
+.title {
+    font-family: "Baumans", system-ui;
+}
+
+.title h1 {
+    font-size: 64px;
+    margin: 0;
+
+}
+
+.title h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.description {
+    text-align: justify;
+    font-size: large;
+    font-weight: 500;
+}
+
+.imgage-content {
+    display: flex;
+    justify-content: center;
+}
+
+.imgage-content img {
+    display: block;
+    width: 100%;
+}
+
+section.our-values {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0;
+    background-color: rgb(219 157 46 / 60%);
+}
+
+p.intro {
+    padding: 0 300px;
+    margin: 0;
+    text-align: center;
+    font-size: large;
+    font-weight: 500;
+}
+
+div.goals-main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 450px;
+    gap: 60px;
+}
+
+div.goals {
+    display: flex;
+    flex-direction: row;;
+    align-items: space-around;
+    justify-content: center;
+    padding-block: 20px;
+    gap: 20px;
+}
+
+.goal-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.goal-icon img {
+    width: 100px;
+    height: 100px;
+}
+
+div.line {
+    display: flex;
+    width: 7px;
+    height: 80px;
+    background-color: #d47800;
+}
+
+div.goal-number {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-block: 15px;
+    color:#d47800;
+}
+
+div.company-values {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+div.value h2, p {
+    margin: 0;
+    color: #311d03;
+}
+
+
+section.collaborators {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 300px;
+    gap: 80px;
+}
+
+div.collaborators-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(219 157 46 / 15%);
+}
+
+div.collaborators-title {
+    color: #311d03;
+    margin: 10px 0;
+}
+
+div.collaborators-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 100px 75px 100px;
+    gap: 60px;
+}
+
+div.collaborator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Amethysta", serif;
+}
+
+div.collaborator img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+}
+
+div.collaborator h3 {
+    margin: 15px 0 5px 0;
+}
+
+div.collaborator p {
+    font-weight: 400;
+    margin: 0;
+    color: #754609;
+}

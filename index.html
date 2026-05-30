@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./scripts/index.js" defer></script>
+    <title>Recicla+</title>
+</head>
+<body>
+    <header class="navbar">
+        <div class="navbar-logo">
+            <img src="assets/icon/GG - logo.png" alt="Logo do Recicla+">
+        </div>
+        <div class="navbar-links">
+            <a href="./pages/about.html" class="first">Sobre nós</a>
+            <a href="./pages/contact.html" class="second">Contato</a>
+            <a href="./pages/ongs.html" class="third">ONGs</a>
+        </div>
+    </header>
+
+    <div class="fundo_inicial" id="projeto-recicla+">
+        <div class="texto_inicial">
+            <h1>PROJETO RECICLA+</h1>
+            <p>
+                Projeto para auxiliar a reciclagem<br>e descarte correto de diferentes<br> materiais</p>
+            <button class="btn_inicial"><a href="sobrenos.html">QUEM SOMOS</a></button>
+        </div>
+    </div>
+
+    <section class="logo_carrosel">
+        <a href="https://cempre.org.br/" target="_blank"><img src="assets/img/carrosel_logo_Cempre.png" alt="logo da empresa Cempre"></a>
+        <a href="https://www.viralata.org.br/" target="_blank"><img src="assets/img/carrosel_logo_CooperViraLata.png" alt="logo da empresa Cooperativa Vira Lata"></a>
+        <a href="https://www.reciclasampa.com.br/" target="_blank"><img src="assets/img/carrosel_logo_ReciclaSampa.png" alt="logo da empresa Recicla Sampa"></a>
+        <a href="https://recicleiros.org.br/" target="_blank"><img src="assets/img/carrosel_logo_Recicleiros.png" alt="logo da empresa Recicleiros"></a>
+        <a href="https://cempre.org.br/" target="_blank"><img src="assets/img/carrosel_logo_Cempre.png" alt="logo da empresa Cempre"></a>
+        <a href="https://www.viralata.org.br/" target="_blank"><img src="assets/img/carrosel_logo_CooperViraLata.png" alt="logo da empresa Cooperativa Vira Lata"></a>
+        <a href="https://www.reciclasampa.com.br/" target="_blank"><img src="assets/img/carrosel_logo_ReciclaSampa.png" alt="logo da empresa Recicla Sampa"></a>
+        <a href="https://recicleiros.org.br/" target="_blank"><img src="assets/img/carrosel_logo_Recicleiros.png" alt="logo da empresa Recicleiros"></a>
+    </section>
+
+    <section class="sobreODS">
+
+        <div class="texto_sobreODS">
+            <h2>ODS 12</h2>
+            <p>
+                Os Objetivos de Desenvolvimento Sustentável (ODS) são metas estabelecidas pela Organização das Nações Unidas (ONU) para promover o desenvolvimento sustentável em escala global. Neste trabalho, foi utilizada como referência a ODS 12 – Consumo e Produção Responsáveis, que busca incentivar o uso consciente dos recursos naturais e a adoção de práticas sustentáveis. Seu principal objetivo é reduzir o desperdício, minimizar os impactos ambientais e promover padrões de consumo e produção mais responsáveis para a sociedade.
+            <br><br>
+            • 12.2. Até 2030, alcançar a gestão sustentável e o uso eficiente dos recursos naturais;
+            <br><br>
+            • 12.5. Até 2030, reduzir substancialmente a geração de resíduos por meio da prevenção, redução, reciclagem e reuso;
+            <br><br>
+            • 12.8. Até 2030, garantir que as pessoas, em todos os lugares, tenham informação relevante e conscientização para o desenvolvimento sustentável e estilos de vida em harmonia com a natureza.</p>
+            
+            <button class="btn_sobreODS"><a href="sobrenos.html">SAIBA MAIS</a></button>
+        </div>
+    </section>
+
+    <section class="ideias-reciclagem">
+
+        <h2>Comece a fazer diferença</h2>
+
+        <p>
+            O descarte incorreto de resíduos causa problemas como enchentes, poluição e contaminação da água e do solo. Para reduzir esses impactos, é essencial separar corretamente o lixo e descartar materiais perigosos em locais adequados. Pequenas atitudes, como não jogar lixo nas ruas e reutilizar materiais, ajudam a preservar o meio ambiente e melhorar a qualidade de vida.
+            <br><br>
+            Reciclar utilizando materiais que seriam descartados para criar algo novo é outra prática simples, sustentável e de grande impacto positivo para o planeta. Confira alguns exemplos de reciclagem que podem ser feitos em casa:
+        </p>
+
+        <div class="reciclar">
+            <div class="categorias">
+                <button id="plastico" onclick="mostrarCategoria('plastico')">Plástico</button>
+                <button id="papel" onclick="mostrarCategoria('papel')">Papel</button>
+                <button id="vidro" onclick="mostrarCategoria('vidro')">Vidro</button>
+                <button id="metal" onclick="mostrarCategoria('metal')">Metal</button>
+            </div>
+
+            <div class="cards-reciclagem">
+                <div class="card">
+                    <div class="card-imagem">
+                        <img id="img1" src="">
+                        <a id="link1" href="#" target="_blank" class="btn-play">
+                            <img src="assets/img/play_icon.webp" alt="Play">
+                        </a>
+                    </div>
+                    <h3 id="titulo1"></h3>
+                    <p id="texto1"></p>
+                </div>
+
+                <div class="card">
+                    <div class="card-imagem">
+                        <img id="img2" src="">
+                        <a id="link2" href="#" target="_blank" class="btn-play">
+                            <img src="assets/img/play_icon.webp" alt="Play">
+                        </a>
+                    </div>
+                    <h3 id="titulo2"></h3>
+                    <p id="texto2"></p>
+                </div>
+
+                <div class="card">
+                    <div class="card-imagem">
+                        <img id="img3" src="">
+                        <a id="link3" href="#" target="_blank" class="btn-play">
+                            <img src="assets/img/play_icon.webp" alt="Play">
+                        </a>
+                    </div>
+                    <h3 id="titulo3"></h3>
+                    <p id="texto3"></p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="resume">
+            <img src="assets/img/logo_branca.png" alt="Logo do Recicla+">
+            <p>
+                Projeto que promove a reciclagem </br>
+                e o descarte adequado de materiais </br>
+                diversos.
+            </p>
+        </div>
+
+            <div class="links">
+                <div class="link">
+                    <h4>Contato</h4>
+                    <a href="mailto:contato@gg.com">Email</a>
+                    <a href="https://instagram.com" target="_blank">Instagram</a>
+                    <a href="tel:+551112345678">Telefone</a>
+                </div>
+                <div class="link">
+                    <h4>Páginas</h4>
+                    <a href="./pages/about.html" target="_blank">Sobre nós</a>
+                    <a href="./pages/ongs.html">ONGs</a>
+                    <a href="./pages/contact.html">Contato</a>
+                </div>
+                <div class="link">
+                    <h4>Seções</h4>
+                    <a href="#projeto-recicla+">Projeto Recicla+</a>
+                    <a href="#collaborators">Liderando a mudança</a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2026 Projeto Recicla+</p>
+        </div>
+    </footer>
+</body>
+</html>
