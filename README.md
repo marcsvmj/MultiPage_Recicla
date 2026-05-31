@@ -3,6 +3,8 @@
 ![HTML5](https://img.shields.io/badge/HTML5-%23E34F26?style=flat&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-%231572B6?style=flat&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E?style=flat&logo=javascript&logoColor=black)
+![Figma](https://img.shields.io/badge/Figma-%F24E1E?style=flat&logo=figma&logoColor=white)
+![Google Docs](https://img.shields.io/badge/Google%20Docs-%234285F4?style=flat&logo=google-docs&logoColor=white)
 
 ![Banner do Projeto](assets/img/github-banner.png)
 
@@ -81,8 +83,8 @@ Essas funcionalidades podem ser implementadas em versões futuras, evoluindo o s
 
 ## 💬 Participação de Cada Integrante
 
-- Marcos Vinicius: Gestão, desenvolvimento, documentação
-- Adonay Roque: Gestão, desenvolvimento, prototipação
+- Marcos Vinicius: Gestão, desenvolvimento, documentação, prototipação
+- Adonay Roque: Gestão, desenvolvimento, prototipação, documentação
 - Sarah Germano: Diagramação e documentação
 - Bianca Serafim: Documentação e prototipação
 
@@ -104,6 +106,16 @@ Projeto desenvolvido como prática acadêmica de desenvolvimento web front-end, 
 - Organização de código
 - Experiência do usuário
 - Boas práticas de HTML, CSS e JavaScript
+
+---
+
+## Outras Fontes do Projeto
+
+- Documentação: Foi utilizado o **Documentos Google**, visando automação e facilidade de edição com apoio visual.
+Link: https://docs.google.com/document/d/1uPY7U7lSJyUGRi5tBkV4Qb10jauahceOL96xP3MabGg/edit?usp=sharing
+
+- Prototipação: Foi utilizado o software **Figma**, visando aplicação real no mercado.
+Link: https://www.figma.com/design/46o8NvIrd87Cm3X31rVHyN/PD1-UNIP---PROT%C3%93TIPO?node-id=0-1&t=apZaYVmWCbChIM5b-1
 
 ---
 
