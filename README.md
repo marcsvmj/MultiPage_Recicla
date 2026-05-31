@@ -84,17 +84,9 @@ Essas funcionalidades podem ser implementadas em versões futuras, evoluindo o s
 ## 💬 Participação de Cada Integrante
 
 - Marcos Vinicius: Gestão, desenvolvimento, documentação, prototipação
-- Adonay Roque: Gestão, desenvolvimento, prototipação, documentação
+- Adonay Roque: Desenvolvimento, documentação, prototipação
 - Sarah Germano: Diagramação e documentação
 - Bianca Serafim: Documentação e prototipação
-
----
-
-## 🚀 Acesso ao Projeto
-
-O projeto está disponível online através do GitHub Pages:
-
-🔗 https://marcsvmj.github.io/MultiPage_Recicla/
 
 ---
 
@@ -110,6 +102,9 @@ Projeto desenvolvido como prática acadêmica de desenvolvimento web front-end, 
 ---
 
 ## Outras Fontes do Projeto
+
+- Hospedagem: Utilizando o **Github Pages**, o projeto está disponível para teste e utilização pelo link abaixo.
+Link: https://marcsvmj.github.io/MultiPage_Recicla/
 
 - Documentação: Foi utilizado o **Documentos Google**, visando automação e facilidade de edição com apoio visual.
 Link: https://docs.google.com/document/d/1uPY7U7lSJyUGRi5tBkV4Qb10jauahceOL96xP3MabGg/edit?usp=sharing
